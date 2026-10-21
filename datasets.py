@@ -1,4 +1,3 @@
-"""Reproducible two-dimensional data generation and leakage-safe splits."""
 
 from __future__ import annotations
 
