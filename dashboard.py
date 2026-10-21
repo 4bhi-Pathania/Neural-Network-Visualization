@@ -1,4 +1,4 @@
-"""Reliable ipywidgets + Matplotlib dashboard for browser-based Jupyter."""
+
 
 from __future__ import annotations
 
@@ -248,7 +248,7 @@ class XRayDashboard:
 
     def widget(self):
         controls = widgets.VBox([
-            widgets.HTML("<h2>🧠 Neural Network X-Ray Lab</h2><p>Interactive NumPy neural-network visualizer.</p>"),
+            widgets.HTML("<h2> Neural Network X-Ray Lab</h2><p>Interactive NumPy neural-network visualizer.</p>"),
             widgets.HTML("<h3>A. Experiment controls</h3>"),
             widgets.HBox([widgets.VBox([self.dataset, self.samples, self.noise, self.separation, self.seed]), widgets.VBox([self.arch, self.activation, self.learning_rate, self.epochs, self.batch, self.l2, self.neuron])]),
             widgets.HBox([self.regenerate, self.train, self.reset, self.check]),
