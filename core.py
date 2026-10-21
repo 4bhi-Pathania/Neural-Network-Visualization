@@ -1,9 +1,4 @@
-"""NumPy neural-network primitives used by Neural Network X-Ray.
 
-The model deliberately implements its own forward pass, backpropagation, and
-parameter updates.  Third-party libraries are used only by the notebook for
-data preparation and reporting.
-"""
 
 from __future__ import annotations
 
